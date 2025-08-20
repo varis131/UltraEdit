@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    margin: 12px;
+    padding: 12px;
+}
+
+nav {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container ul {
+    display: flex;
+    margin-top: 14px;
+
+
+}
+
+.logo img {
+    height: 46px;
+    width: 146px;
+}
+
+.container ul li img {
+    height: 29px;
+    width: 29px;
+}
+
+.container2 {
+
+    margin: 12px;
+    padding: 34px;
+}
+
+main div span {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    font-size: 29px;
+    gap: 8px;
+    font-family: sans-serif;
+}
+
+.box p {
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    width: 758px;
+    align-items: center;
+    margin: 20px auto;
+    font-family: sans-serif;
+}
+
+main div button {
+    BACKGROUND-COLOR: rgb(19, 224, 235);
+    margin: 11px;
+    padding: 11px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+div .btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btngreen {
+    background-color: #96f296;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.btnblue {
+    background-color: #2edada;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+    font-weight: 500;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div .item {
+    background-color: #e4dfd9;
+    height: auto;
+    width: 273px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.lang {
+    text-align: center;
+    margin: 10px;
+    padding: 7px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 12px;
+    
+}
+section{
+    margin: 0 120px;
+}
+
